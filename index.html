@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman Zaman Communication - Money Transfer, Phone Repair & Services in Karachi</title>
+    <meta name="description" content="Your trusted local shop for Easypaisa, Raast, phone repair, mobile packages, and accessories in Orangi Town, Karachi. Fast and reliable service at Usman Zaman Communication.">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* --- CSS STYLES (VERSION 4 - STACKING CONTEXT & UI POLISH) --- */
+
+        /* 1. THEME VARIABLES & KEYFRAMES (Unchanged) */
+        :root{--color-bg:#0d1117;--color-primary:#161b22;--color-secondary:#21262d;--color-text:#e2e8f0;--color-text-muted:#8b949e;--color-accent:#38bdf8;--color-accent-2:#8b5cf6;--color-border:rgba(255,255,255,0.1);--shadow-sm:0 1px 2px rgba(0,0,0,0.1);--shadow-md:0 4px 6px rgba(0,0,0,0.2);--shadow-lg:0 10px 20px rgba(0,0,0,0.3);--glow-shadow:none}body[data-theme=green]{--color-bg:#f8f9fa;--color-primary:#fff;--color-secondary:#e9ecef;--color-text:#212529;--color-text-muted:#6c757d;--color-accent:#00b386;--color-accent-2:#008c69;--color-border:rgba(0,0,0,0.1);--shadow-sm:0 1px 2px rgba(0,0,0,0.05);--shadow-md:0 4px 6px rgba(0,0,0,0.07);--shadow-lg:0 10px 20px rgba(0,0,0,0.1);--glow-shadow:none}body[data-theme=dark]{--color-bg:#121212;--color-primary:#1e1e1e;--color-secondary:#2c2c2c;--color-text:#e0e0e0;--color-text-muted:#a0a0a0;--color-accent:#4fc3f7;--color-accent-2:#bb86fc;--color-border:rgba(255,255,255,0.12);--shadow-sm:0 2px 4px rgba(0,0,0,0.3);--shadow-md:0 6px 12px rgba(0,0,0,0.4);--shadow-lg:0 15px 30px rgba(0,0,0,0.5);--glow-shadow:none}body[data-theme=neon]{--color-bg:#000;--color-primary:#0a0a0a;--color-secondary:#1a1a1a;--color-text:#fff;--color-text-muted:#bbb;--color-accent:#39ff14;--color-accent-2:#00ffff;--color-border:rgba(57,255,20,0.3);--shadow-sm:0 0 5px var(--color-accent);--shadow-md:0 0 15px var(--color-accent);--shadow-lg:0 0 30px var(--color-accent);--glow-shadow:0 0 8px var(--color-accent)}@keyframes pulse-glow{0%,100%{box-shadow:0 0 15px var(--color-accent)}50%{box-shadow:0 0 25px var(--color-accent)}}
+        
+        /* 2. GENERAL & UTILITY STYLES (Unchanged) */
+        *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Poppins',sans-serif;background-color:var(--color-bg);color:var(--color-text);transition:background-color .4s ease,color .4s ease;overflow-x:hidden}body.menu-open{overflow:hidden}.container{max-width:1200px;margin:0 auto;padding:0 2rem}section{padding:6rem 0}h1,h2,h3,h4{font-weight:600;line-height:1.2;color:var(--color-text)}h1{font-size:clamp(2.5rem,5vw,3.5rem);margin-bottom:1rem;text-shadow:var(--glow-shadow)}h2{font-size:clamp(2rem,4vw,2.8rem);margin-bottom:3rem;text-align:center;text-shadow:var(--glow-shadow)}p{color:var(--color-text-muted);margin-bottom:1rem}a{text-decoration:none}.btn{display:inline-block;padding:.75rem 1.75rem;border-radius:50px;text-decoration:none;font-weight:600;transition:all .3s ease}
+
+        /* 3. COMPONENT STYLES */
+        /* --- Navbar (IMPROVED GLASS EFFECT) --- */
+        .navbar {
+            position: sticky; top: 0; left: 0; width: 100%; padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center; 
+            /* FIX: Highest z-index for static elements */
+            z-index: 100; 
+            /* IMPROVEMENT: Enhanced Glassmorphism */
+            background: color-mix(in srgb, var(--color-primary), transparent 40%);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--color-border);
+            transition: background-color 0.4s ease, border-color 0.4s ease;
+        }
+        .nav-logo{font-size:1.25rem;font-weight:700;color:var(--color-text)}.nav-right-cluster{display:flex;align-items:center;gap:1.5rem}.desktop-nav-links{list-style:none;display:flex;gap:2rem}.desktop-nav-links a{color:var(--color-text);font-weight:500}.desktop-nav-links a:hover{color:var(--color-accent)}.theme-switcher{background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--color-text);transition:transform .3s ease,color .3s ease}.theme-switcher:hover{transform:scale(1.2) rotate(15deg);color:var(--color-accent)}
+        
+        /* --- Mobile Menu --- */
+        .mobile-nav-toggle { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--color-text); z-index: 1002; /* Above menu and overlay */ }
+        /* IMPROVEMENT: Added transition for the icon change */
+        .mobile-nav-toggle i { transition: transform 0.3s ease-in-out; }
+        .mobile-nav-toggle.is-active i { transform: rotate(180deg); }
+
+        .mobile-nav-menu{position:fixed;top:0;right:0;width:min(75vw,400px);height:100%;background-color:var(--color-primary);box-shadow:var(--shadow-lg);display:flex;flex-direction:column;justify-content:center;align-items:center;transform:translateX(100%);transition:transform .4s cubic-bezier(.23,1,.32,1);z-index:1001}.mobile-nav-menu.is-active{transform:translateX(0)}.mobile-nav-menu .nav-links{list-style:none;display:flex;flex-direction:column;gap:2.5rem;text-align:center}.mobile-nav-menu .nav-links a{color:var(--color-text);font-size:1.5rem;font-weight:600}
+        .nav-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.6);opacity:0;visibility:hidden;transition:opacity .4s ease;z-index:1000}.nav-overlay.is-active{opacity:1;visibility:visible}
+
+        /* --- Hero Section (FIXED STACKING CONTEXT) --- */
+        .hero { 
+            position: relative; 
+            /* FIX: Establish a stacking context above the services section */
+            z-index: 2; 
+            height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden; padding: 0 2rem; 
+        }
+        .hero-bg-gradients{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}.gradient-layer{position:absolute;border-radius:50%;filter:blur(120px);opacity:.3;transition:background .4s ease}.grad-1{width:600px;height:600px;background:linear-gradient(90deg,var(--color-accent),var(--color-accent-2));top:-150px;left:-150px}.grad-2{width:500px;height:500px;background:linear-gradient(90deg,var(--color-accent-2),var(--color-accent));bottom:-100px;right:-100px}.hero-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center}.owner-photo{width:150px;height:150px;border-radius:50%;border:4px solid var(--color-accent);-o-object-fit:cover;object-fit:cover;margin-bottom:1.5rem;box-shadow:var(--shadow-lg);transition:border-color .4s ease,box-shadow .4s ease}.hero-cta{margin-top:2rem;border:2px solid var(--color-accent);color:var(--color-text)}.hero-cta:hover{background-color:var(--color-accent);color:var(--color-bg);box-shadow:var(--shadow-md)}
+
+        /* --- Services Section (FIXED STACKING CONTEXT) --- */
+        .services-container { 
+            height: 100vh; width: 100%; overflow: hidden; 
+            position: relative; 
+            /* FIX: Ensure this is behind the hero section */
+            z-index: 1; 
+        }
+        .services-title{position:absolute;top:6rem;left:50%;transform:translateX(-50%);z-index:5}.services-wrapper{height:100%;width:400%;display:flex}.service-panel{width:25%;height:100%;display:flex;justify-content:center;align-items:center;padding:2rem}.service-card{background-color:var(--color-primary);padding:2.5rem;border-radius:20px;width:100%;max-width:700px;display:flex;gap:2rem;align-items:center;border:1px solid var(--color-border);box-shadow:var(--shadow-md);transition:transform .3s ease,box-shadow .3s ease,background-color .4s ease,border-color .4s ease}.service-card:hover{transform:translateY(-10px);box-shadow:var(--shadow-lg)}.service-card-icon{font-size:3.5rem;color:var(--color-accent);min-width:70px;text-align:center}.service-card-text h3{font-size:1.8rem;color:var(--color-accent);margin-bottom:.5rem}.whatsapp-inquiry{margin-top:1rem;background-color:#25d366;color:#fff}.whatsapp-inquiry i{margin-right:.5rem}.whatsapp-inquiry:hover{transform:scale(1.05);box-shadow:0 4px 15px rgba(37,211,102,.4)}
+
+        /* --- Other Sections --- */
+        #payment-notice, #location {
+            /* FIX: Give these sections a z-index so they appear above the pinned section when scrolling */
+            position: relative;
+            z-index: 3;
+            background-color: var(--color-bg); /* Ensure a solid background */
+        }
+        #payment-notice{background-color:var(--color-secondary)}.payment-card{background-color:var(--color-primary);padding:3rem;border-radius:20px;border-left:5px solid var(--color-accent);box-shadow:var(--shadow-lg)}.payment-card h3{display:flex;align-items:center}.payment-card h3 i{margin-right:1rem;font-size:2rem;color:var(--color-accent)}.payment-method{margin-bottom:1.5rem;padding:1rem;border-radius:8px}.payment-method.ok{background-color:color-mix(in srgb,var(--color-accent) 15%,transparent)}.payment-method.warning{background-color:color-mix(in srgb,#ffc107 15%,transparent)}.payment-number{font-weight:600;background-color:var(--color-secondary);padding:.2rem .5rem;border-radius:5px}.location-content{display:grid;grid-template-columns:2fr 1fr;gap:3rem;align-items:center}.map-wrapper{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-lg);border:1px solid var(--color-border)}.map-wrapper iframe{width:100%;height:450px;border:0;display:block}.get-directions{margin-top:1rem;background-color:var(--color-accent);color:var(--color-bg);text-align:center}.get-directions:hover{box-shadow:var(--shadow-md);opacity:.9}.contact-item{display:flex;align-items:flex-start;margin-bottom:1.5rem}.contact-item i{font-size:1.5rem;color:var(--color-accent);margin-right:1.5rem;margin-top:5px}
+
+        /* --- Floating Buttons & Footer --- */
+        .float-btn{position:fixed;width:60px;height:60px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:1.8rem;text-decoration:none;z-index:100;box-shadow:var(--shadow-lg);transition:transform .3s ease,opacity .3s ease}.whatsapp-float{bottom:2rem;right:2rem;background-color:#25d366;color:#fff}.back-to-top{bottom:6.5rem;right:2rem;background-color:var(--color-accent);color:var(--color-bg);opacity:0;pointer-events:none}.float-btn:hover{transform:scale(1.1)}.back-to-top.visible{opacity:1;pointer-events:auto}body[data-theme=neon] .float-btn:hover{animation:pulse-glow 1.5s infinite}
+        .footer{background-color:var(--color-primary);text-align:center;padding:2rem 0;border-top:1px solid var(--color-border); position: relative; z-index: 3;}
+        .footer p{margin:.2rem}
+
+        /* --- Responsiveness --- */
+        @media (max-width:992px){.location-content{grid-template-columns:1fr}}
+        @media (max-width:768px){.desktop-nav-links{display:none}.mobile-nav-toggle{display:block}.services-container{height:auto;overflow:visible}.services-title{position:static;transform:none;padding-bottom:1rem}.services-wrapper{flex-direction:column;width:100%;align-items:center;gap:2rem}.service-panel{width:100%;height:auto;padding:0}.service-card{flex-direction:column;text-align:center;width:90%;max-width:350px;aspect-ratio:1/1;justify-content:center;padding:2rem}.service-card-icon{margin-bottom:1rem}.service-card-text h3{font-size:1.5rem}}
+
+    </style>
+</head>
+<body data-theme="default">
+
+    <div class="nav-overlay"></div>
+
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Usman Zaman Communication</a>
+        <div class="nav-right-cluster">
+            <ul class="desktop-nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#payment-notice">Payments</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+            <button class="theme-switcher" id="theme-switcher" title="Change Theme"><i class="fa-solid fa-palette"></i></button>
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <div class="mobile-nav-menu" id="mobile-nav-menu">
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#payment-notice">Payments</a></li>
+            <li><a href="#location">Location</a></li>
+        </ul>
+    </div>
+
+
+    <main>
+        <!-- The HTML structure is unchanged, only the CSS and JS are affected -->
+        <section class="hero" id="hero"><div class="hero-bg-gradients"><div class="gradient-layer grad-1"></div><div class="gradient-layer grad-2"></div></div><div class="hero-content"><img src="1.jpg" alt="Shop Owner Usman Zaman" class="owner-photo"><h1>Usman Zaman Communication</h1><p>Easypaisa, Raast, Money Transfer, Phone Repair & more in Orangi Town, Karachi.</p><a href="#services" class="btn hero-cta">Explore Our Services</a></div></section><section id="services" class="services-container"><h2 class="services-title">Our Core Services</h2><div class="services-wrapper"><div class="service-panel"><div class="service-card"><div class="service-card-icon"><i class="fa-solid fa-money-bill-transfer"></i></div><div class="service-card-text"><h3>Money Transfer</h3><p>Fast & secure Easypaisa, Raast, and bank transfers. Send and receive money with ease and low fees.</p><a href="#" class="btn whatsapp-inquiry"><i class="fab fa-whatsapp"></i>Inquire</a></div></div></div><div class="service-panel"><div class="service-card"><div class="service-card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div><div class="service-card-text"><h3>Phone Repair</h3><p>Expert repair for screens, batteries, and more. We service all major brands quickly and affordably.</p><a href="#" class="btn whatsapp-inquiry"><i class="fab fa-whatsapp"></i>Inquire</a></div></div></div><div class="service-panel"><div class="service-card"><div class="service-card-icon"><i class="fa-solid fa-sim-card"></i></div><div class="service-card-text"><h3>Mobile Packages</h3><p>Get the best data, call, and SMS packages for any network. We'll find the perfect plan for your budget.</p><a href="#" class="btn whatsapp-inquiry"><i class="fab fa-whatsapp"></i>Inquire</a></div></div></div><div class="service-panel"><div class="service-card"><div class="service-card-icon"><i class="fa-solid fa-headphones-simple"></i></div><div class="service-card-text"><h3>Accessories</h3><p>From durable cases and screen protectors to fast chargers and headphones, we have all you need.</p><a href="#" class="btn whatsapp-inquiry"><i class="fab fa-whatsapp"></i>Inquire</a></div></div></div></div></section><section id="payment-notice"><div class="container"><h2>Important Payment Information</h2><div class="payment-card"><h3><i class="fa-solid fa-circle-info"></i>Please Read Before Sending Money</h3><div class="payment-method ok"><h4>✅ WORKING: Easypaisa & Raast</h4><p>For all services, please use the following account: <span class="payment-number">03051120225</span></p></div><div class="payment-method warning"><h4>⚠️ NOTICE: JazzCash</h4><p>Please DO NOT send payments to our JazzCash account on this number due to a temporary issue. Thank you for your understanding.</p></div><p>Other bank accounts available. Please call for details. <br>• Sending Fee: Rs. 10 | • Receiving Fee: Rs. 20</p></div></div></section><section id="location"><div class="container"><h2>Visit Us or Get in Touch</h2><div class="location-content"><div class="map-wrapper"><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3617.9463359550014!2d66.99496899999998!3d24.93389800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU2JzAyLjAiTiA2NsKwNTknNDEuOSJF!5e0!3m2!1sen!2s!4v1750243659739!5m2!1sen!2s" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><div class="contact-info"><div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><h3>Our Address</h3><p>Near Badar Chowk Road, next to Pioneers Secondary Grammar School, Orangi Town, Karachi</p></div></div><div class="contact-item"><i class="fa-solid fa-phone"></i><div><h3>Phone & WhatsApp</h3><a href="tel:03051120225">0305 1120225</a></div></div><div class="contact-item"><i class="fa-solid fa-clock"></i><div><h3>Business Hours</h3><p>Sat - Thu: 10:00 AM - 10:00 PM<br>Fri:(Break: 2 PM - 4 PM) </p></div></div><a href="https://www.google.com/maps/dir/?api=1&destination=24.933898,66.994969" target="_blank" class="btn get-directions"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a></div></div></div></section>
+    </main>
+    <footer class="footer"><p>© 2024 Usman Zaman Communication. All Rights Reserved.</p><p>Website designed by <a href="https://i-am-mohid.netlify.app/" target="_blank">Mohid Ahmad</a></p></footer><a href="https://wa.me/923051120225?text=Assalamu%20Alaikum,%20I%20have%20a%20question." target="_blank" class="float-btn whatsapp-float" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a><a href="#" class="float-btn back-to-top" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const WHATSAPP_NUMBER = '923051120225';
+        const body = document.body;
+
+        const initThemeSwitcher=()=>{const e=document.getElementById("theme-switcher"),t=["default","green","dark","neon"];let o=0;const a=localStorage.getItem("site_theme");a&&t.includes(a)&&(body.setAttribute("data-theme",a),o=t.indexOf(a)),e.addEventListener("click",()=>{o=(o+1)%t.length;const a=t[o];body.setAttribute("data-theme",a),localStorage.setItem("site_theme",a)})};
+
+        // 2. MOBILE NAVIGATION (IMPROVED with Close Button)
+        const initMobileNav = () => {
+            const toggleButton = document.getElementById('mobile-nav-toggle');
+            const mobileMenu = document.getElementById('mobile-nav-menu');
+            const navOverlay = document.querySelector('.nav-overlay');
+            const navLinks = mobileMenu.querySelectorAll('a');
+
+            const toggleMenu = (isActive) => {
+                // Toggle active classes
+                mobileMenu.classList.toggle('is-active', isActive);
+                navOverlay.classList.toggle('is-active', isActive);
+                body.classList.toggle('menu-open', isActive);
+                
+                // IMPROVEMENT: Add active class to button for styling and animate icon
+                toggleButton.classList.toggle('is-active', isActive);
+                toggleButton.setAttribute('aria-expanded', isActive);
+                toggleButton.innerHTML = isActive ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+            };
+
+            toggleButton.addEventListener('click', () => {
+                const isActive = !mobileMenu.classList.contains('is-active');
+                toggleMenu(isActive);
+            });
+
+            navOverlay.addEventListener('click', () => toggleMenu(false));
+            navLinks.forEach(link => link.addEventListener('click', () => toggleMenu(false)));
+        };
+
+        const initWhatsAppLinks=()=>{document.querySelectorAll(".whatsapp-inquiry").forEach(e=>{const t=e.closest(".service-card").querySelector("h3").textContent.trim(),o=encodeURIComponent(`Assalamu Alaikum, I'd like to inquire about your "${t}" service.`);e.href=`https://wa.me/${WHATSAPP_NUMBER}?text=${o}`,e.target="_blank"})};
+        
+        // 4. GSAP ANIMATIONS (This code is correct and stable)
+        const initGsapAnimations=()=>{gsap.registerPlugin(ScrollTrigger);let e=gsap.matchMedia();e.add("(min-width: 769px)",()=>{const e=document.querySelector(".services-wrapper"),t=e.scrollWidth-window.innerWidth;gsap.to(e,{x:-t,ease:"none",scrollTrigger:{trigger:".services-container",pin:!0,scrub:.5,end:()=>`+=${t}`,invalidateOnRefresh:!0}})}),gsap.utils.toArray(["#payment-notice","#location"]).forEach(e=>{gsap.from(e,{opacity:0,y:50,duration:1,scrollTrigger:{trigger:e,start:"top 80%",toggleActions:"play none none none"}})})};
+        
+        const initBackToTop=()=>{const e=document.querySelector(".back-to-top");window.addEventListener("scroll",()=>{e.classList.toggle("visible",window.scrollY>400)})};
+
+        // Initialize all functions
+        initThemeSwitcher();
+        initMobileNav();
+        initWhatsAppLinks();
+        initGsapAnimations();
+        initBackToTop();
+    });
+    </script>
+</body>
+</html>
